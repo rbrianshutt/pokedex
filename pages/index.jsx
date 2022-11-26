@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import Layout from '../components/layout';
+import Layout from '../components/Layout.jsx';
 
 export default function Home({ pokemon }) {
 	console.log(pokemon);
